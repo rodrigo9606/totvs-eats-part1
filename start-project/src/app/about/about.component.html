@@ -1,3 +1,6 @@
-<p>
-  about works!
-</p>
+<p>Digite o seu nome: {{nome}}
+  </p>
+
+<input (keyup)="checkPin($event)" type="text" [(ngModel)]="nome">
+
+<button class="thf-button thf-text-ellipsis thf-button-primary btn-new" type="button" (click)="Soma(nome)">Submit</button><br>
