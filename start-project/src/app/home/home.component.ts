@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  public titulo:string;
+
   constructor() { }
 
   ngOnInit() {
-  }
 
+    this.titulo = " Totvs Eats ";
+  }
+ 
 }
